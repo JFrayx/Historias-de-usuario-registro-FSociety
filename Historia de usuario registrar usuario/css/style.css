@@ -2,7 +2,7 @@
 * {
     margin: 5px;
     padding:5px;
-    box-sizing: border-box; /*contenido en cajas "un contenedor"*/
+    box-sizing: border-box; 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -24,10 +24,10 @@
 
 .form-register {
     width: 400px;
-    background-color: #24303a; /*fondo de la caja*/
+    background-color: #24303a; 
     padding: 30px; 
     color: #ffffff;
-    margin: auto; /* centra el contenedor a cualquier tamaño de ventana */
+    margin: auto; 
     margin-top: 40px;
     border-radius: 15px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -37,13 +37,13 @@
 .form-register a {
     color: rgb(217, 157, 157);
     font-weight: bold;
-    text-decoration: none; /* esto se hace para cambiar el color de las etiquetas o hipervinculos */
+    text-decoration: none; 
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 15px;
 
 }
 
-.casillas { /*se hizo cuando seselecciono en los placeholder de los input*/
+.casillas 
     width: 100%;
     background: #a1bcd2;
     padding: 10px; 
