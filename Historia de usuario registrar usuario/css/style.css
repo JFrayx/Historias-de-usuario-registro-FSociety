@@ -1,0 +1,79 @@
+
+* {
+    margin: 5px;
+    padding:5px;
+    box-sizing: border-box; /*contenido en cajas "un contenedor"*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cabecera { 
+    text-align: center;
+    color: black;
+    width: 100%;
+    margin: auto;
+    padding-top: 15px;
+}
+
+.form-register #titulo { 
+    font-size: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.form-register {
+    width: 400px;
+    background-color: #24303a; /*fondo de la caja*/
+    padding: 30px; 
+    color: #ffffff;
+    margin: auto; /* centra el contenedor a cualquier tamaño de ventana */
+    margin-top: 40px;
+    border-radius: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.form-register a {
+    color: rgb(217, 157, 157);
+    font-weight: bold;
+    text-decoration: none; /* esto se hace para cambiar el color de las etiquetas o hipervinculos */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+
+}
+
+.casillas { /*se hizo cuando seselecciono en los placeholder de los input*/
+    width: 100%;
+    background: #a1bcd2;
+    padding: 10px; 
+    border-radius: 8px;
+    margin: botton 10px;
+    border: 1px solid #96999b ;
+    color: black; 
+    font-size: 12px;
+
+}
+
+body { 
+    background-color: rgb(83, 163, 212);
+}
+
+#btnregistrar { 
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 5px; 
+    margin-bottom: 7px;
+    margin-top: 7px;
+    background-color: rgb(147, 65, 65);
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+footer { 
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
